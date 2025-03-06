@@ -16,5 +16,5 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios
   spec.ios.deployment_target = '15.0'
 
-  spec.source_files = 'Sources/HVTokensBorder/**/*'
+  spec.source_files = 'Sources/TokensBorder/**/*'
 end
