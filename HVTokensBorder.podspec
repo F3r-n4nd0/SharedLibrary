@@ -1,33 +1,20 @@
-#
-#  Be sure to run `pod spec lint HVTokensColor.podspec' to ensure this is a
-#  valid spec and to remove all comments including this before submitting the spec.
-#
-#  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
-#  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
-#
+# This is a template for a Podspec file that is used to share the Hover design system tokens.
+# It enables seamless integration for iOS, Android, and web applications to enhance the user experience.
+# This is a generated file. Do not change it manually.
 
 Pod::Spec.new do |spec|
-
-  spec.name         = "HVTokensBorder"
-  spec.version      = "0.0.1"
-  spec.summary      = "This library offers a standardized set of border radius tokens that ensure consistency across applications."
-
-  spec.description  = <<-DESC
-                   The Hover design system tokens border provides:
-                   * A standardized border radius to ensure consistency across your design system.
-                   * Seamless integration for iOS, Android, and web applications to enhance user experience.
-                   DESC
-
-  spec.homepage     = 'https://github.com/hoverinc/hover-ios-artifacts'
-  spec.author       = 'HOVER Inc'
-
+  spec.name             = 'HVTokensBorder'
+  spec.version          = '1.5.0'
+  spec.summary          = 'Hover Design System Border Tokens'
+  spec.homepage         = 'https://github.com/hoverinc/hover-ios-artifacts'
+  spec.license          = 'UNLICENSED'
+  spec.author           = 'Hover Inc., Jamie Rolfs <jamie.rolfs@hover.to>'
   spec.source       = { 
     :git => 'https://github.com/hoverinc/hover-ios-artifacts.git', 
-    :tag => "HVTokensBorder/#{spec.version}"
+    :tag => "HVTokensBorder/1.5.0"
   }
-  
-  spec.source_files = "Sources/TokensBorder/**/*.swift"
   spec.platform     = :ios
-  spec.static_framework = true
   spec.ios.deployment_target = '15.0'
+
+  spec.source_files = 'Sources/HVTokensBorder/**/*'
 end
