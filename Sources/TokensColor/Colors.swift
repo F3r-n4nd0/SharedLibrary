@@ -6,6 +6,8 @@
 import SwiftUI
 
 public enum Colors {
+
+    
     public static let hoverColorBackgroundGlass = Color(red: 0.969, green: 0.961, blue: 0.961, opacity: 0.4) /* Background Glass */
     public static let hoverColorBackgroundGlassInvert = Color(red: 0.063, green: 0.004, blue: 0.004, opacity: 0.4) /* Background Glass Invert */
     public static let hoverColorBackgroundPrimary = Color(red: 1.000, green: 1.000, blue: 1.000, opacity: 1) /* Background Primary */
