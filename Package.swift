@@ -15,7 +15,7 @@ let package = Package(
             targets: ["TokensColor"]),
         
         .library(
-            name: "null",
+            name: "HVTokensBorder",
             targets: ["TokensBorder"]),
         
     ],
