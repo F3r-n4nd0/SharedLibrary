@@ -11,11 +11,11 @@ let package = Package(
     products: [
         
         .library(
-            name: "TokensColor",
+            name: "HVTokensColor",
             targets: ["TokensColor"]),
         
         .library(
-            name: "TokensBorder",
+            name: "null",
             targets: ["TokensBorder"]),
         
     ],

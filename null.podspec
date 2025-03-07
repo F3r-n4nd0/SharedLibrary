@@ -3,15 +3,15 @@
 # This is a generated file. Do not change it manually.
 
 Pod::Spec.new do |spec|
-  spec.name             = 'HVTokensColor'
-  spec.version          = '8.2.3'
-  spec.summary          = 'Hover Design System Color Tokens'
+  spec.name             = 'null'
+  spec.version          = '1.5.0'
+  spec.summary          = 'Hover Design System Border Tokens'
   spec.homepage         = 'https://github.com/hoverinc/hover-ios-artifacts'
   spec.license          = 'UNLICENSED'
   spec.author           = 'Hover Inc., Jamie Rolfs <jamie.rolfs@hover.to>'
   spec.source       = { 
     :git => 'https://github.com/hoverinc/hover-ios-artifacts.git', 
-    :tag => "HVTokensColor/8.2.3"
+    :tag => "null/1.5.0"
   }
   spec.platform     = :ios
   spec.ios.deployment_target = '15.0'
